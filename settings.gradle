@@ -1,0 +1,10 @@
+include ':feature2:impl-wiring'
+include ':feature2:impl'
+include ':feature2:api'
+include ':feature2'
+include ':feature1:impl-wiring'
+include ':feature1:impl'
+include ':feature1:api'
+include ':feature1'
+include ':app'
+rootProject.name = "My Application"
